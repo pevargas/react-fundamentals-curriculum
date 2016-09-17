@@ -1,9 +1,9 @@
 var React = require('react')
 
-function Main () {
+function Main (props) {
   return (
     <div className="container">
-      {this.props.children}
+      {props.children}
     </div>
   )
 }
